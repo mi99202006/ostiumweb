@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ch">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="ostiumstyle.css" media="screen"/>
+	<script>
+	/*content unshow*/
+		function unshow(input){
+			document.getElementById(input).style.display="none";
+		}
+	/*show conntent and information*/
+		function loadDoc(x) {
+			document.getElementById("content").style.display="none";
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (xhttp.readyState == 4 && xhttp.status == 200) {
+					document.getElementById("text").innerHTML = xhttp.responseText;
+				}
+				else{
+					document.getElementById("text").innerHTML=xhttp.readyState;
+				}
+			};
+			document.getElementById("content").style.display="block";
+			xhttp.open("GET", "content/"+x+".html", true);
+			xhttp.send();
+		}
+	</script>
+</head>
+<body>
+	<!--<div id="spinner" onclick="unshow('spinner')">1
+		
+		
+			<img src="img/logoblack.png" width=1048.5px height=368px style="margin-top:200px">
+			<br>
+			<img src="img/loading.png" width=1048.5px height=2px style="margin-top:210px">
+
+	</div>-->
+	<div id="content">
+		<table>
+			<tr>
+				<td><div id="text"></div></td>
+				</tr>
+		</table>
+	</div>
+	<div class="button">
+		<table style="width:100%;">
+			<tr style="background-image:'img/line.png'; background-size:width:100%;">
+				<td onclick="loadDoc('About')"><img class="buttonon" src="img/about.png" width=102px height=49.875px></td>
+				<td onclick="loadDoc('News')"><img class="buttonon" src="img/news.png" width=93.375px height=49.875px></td>
+				<td onclick="unshow('content')"><img class="buttonon" src="img/logo.png" width=138.7125px height=151.5375px></td>
+				<td onclick="loadDoc('FAQ')"><img  class="buttonon"src="img/faq.png" width=93.375px height=49.875px ></td>
+				<td onclick="loadDoc('Contact')"><img class="buttonon" src="img/contact.png" width=93.375px height=49.875px></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+
