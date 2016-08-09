@@ -1,0 +1,116 @@
+body{
+	
+	text-align:center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 30%;
+	background-image:url("img/tree.png");
+	background-size:259.2px 143.1px;
+
+}
+#content{
+	position: absolute;
+	overflow:hidden;
+	text-align:center;
+	left:50%;
+	top:10%;
+	margin-left:-380px;
+	background-image:url("img/contentbg.png");
+	background-size:900px 700px;
+	height:700px;
+	width:900px;
+	display:none;
+	animation-name: showblock;
+	animation-duration:1.1s;
+	font-family:"agencyfb";
+	background-repeat: no-repeat;	
+}
+
+ul{
+	list-style-type: none;
+	font-size:20px;
+}
+.button{
+	text-align:center;
+	position:absolute;
+	bottom:0%;
+	left:50%;
+	font-size:30px;
+	width:80%;
+	margin-left:-40%;
+	font-family:"agencyfb";
+    font-size: 50px;
+}
+.buttonon:hover{
+	cursor: pointer;
+}
+table{
+	width:100%;
+}
+td{
+	width:20%;
+	text-align:center;
+}
+.content_top{
+	margin:2%;
+}
+#title{
+	font-size:80px;
+}
+#text{
+	font-size:50px;
+	margin-right:130px;
+	color:white;
+}
+/*雲層*/
+.cloudbgleft{
+	position:absolute;
+	width:40%;
+	height:80%;
+	top:-10%;
+	left:-10%;
+	z-index:1;
+
+}
+.cloudmoveleft01{
+	position:absolute;
+	top:50%;
+	left:-10%;
+	z-index:2;
+	animation-name: cloud;
+	animation-duration:5s;
+}
+/*開頭
+#spinner {
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  margin-left:-10px;
+  margin-top:-10px;
+  text-align:center;
+}*/
+/*字體*/
+@font-face {
+    font-family: "agencyfb";
+    src: url("font/ufonts.com_agency-fb.ttf");
+}
+/*動畫*/
+	/*content*/
+@keyframes showblock {
+    from  {height:0px;}
+    to {height:700px;}
+}
+@keyframes unshowblock {
+	0% {width:900px;height:550px;}
+    30%  {width:900px;height:2px;}
+	100%   {width:0px;height:2px;}
+    
+}
+	/*雲層*/
+@keyframes cloud{
+    from  {left:30%;;}
+    to {left:-10%;}
+}
