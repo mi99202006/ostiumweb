@@ -109,7 +109,7 @@ td{
 }
 @keyframes cloudleft07 {
 	0% {left:25%;}
-	35%{left:25%;}
+	20%{left:25%;}
     100% {left:10%;}
 }
 
