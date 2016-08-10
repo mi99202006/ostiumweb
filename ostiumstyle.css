@@ -213,12 +213,13 @@ td{
 	right:20%;
 	z-index:1;
 	animation-name: cloudright09;
-	animation-duration:2s;
+	animation-duration:6s;
 
 }
 @keyframes cloudright09 {
-    from  {right:35%;}
-    to {right:20%;}
+	0% {right:35%;}
+	30% {right:35%;}
+    100% {right:20%;}
 }
 
 .cloudright08{
@@ -229,12 +230,13 @@ td{
 	right:10%;
 	z-index:2;
 	animation-name: cloudright08;
-	animation-duration:2s;
+	animation-duration:6s;
 
 }
 @keyframes cloudright08 {
-    from  {right:26%;}
-    to {right:10%;}
+    0% {right:26%;}
+	35% {right:26%;}
+    100% {right:10%;}
 }
 .cloudright07{
 	position:absolute;
@@ -244,11 +246,12 @@ td{
 	right:10%;
 	z-index:3;
 	animation-name: cloudright07;
-	animation-duration:2s;
+	animation-duration:6s;
 }
 @keyframes cloudright07 {
-    from  {right:20%;}
-    to {right:10%;}
+    0%  {right:20%;}
+	35%  {right:20%;}
+    100% {right:10%;}
 }
 .cloudright06{
 	position:absolute;
@@ -258,12 +261,13 @@ td{
 	right:0%;
 	z-index:4;
 	animation-name: cloudright06;
-	animation-duration:2s;
+	animation-duration:6s;
 
 }
 @keyframes cloudright06 {
-    from  {right:15%;}
-    to {right:0%;}
+    0% {right:15%;}
+	42% {right:15%;}
+    100% {right:0%;}
 }
 .cloudright05{
 	position:absolute;
@@ -273,12 +277,13 @@ td{
 	right:3%;
 	z-index:5;
 	animation-name: cloudright05;
-	animation-duration:2s;
+	animation-duration:6s;
 
 }
 @keyframes cloudright05 {
-    from  {right:20%;}
-    to {right:3%;}
+    0% {right:20%;}
+	40% {right:20%;}
+    100% {right:3%;}
 }
 .cloudright04{
 	position:absolute;
@@ -288,11 +293,12 @@ td{
 	right:10%;
 	z-index:6;
 	animation-name: cloudright04;
-	animation-duration:2s;
+	animation-duration:6s;
 }
 @keyframes cloudright04 {
-    from  {right:28%;}
-    to {right:10%;}
+    0%{right:28%;}
+	30%{right:28%;}
+    100% {right:10%;}
 }
 
 .cloudright03{
@@ -303,11 +309,12 @@ td{
 	right:-10%;
 	z-index:7;
 	animation-name: cloudright03;
-	animation-duration:2s;
+	animation-duration:6s;
 }
 @keyframes cloudright03 {
-    from  {right:20%;}
-    to {right:4%;}
+    0%  {right:20%;}
+	30%  {right:20%;}
+    100% {right:4%;}
 }
 .cloudright02{
 	position:absolute;
@@ -317,11 +324,12 @@ td{
 	right:4%;
 	z-index:8;
 	animation-name: cloudright02;
-	animation-duration:2s;
+	animation-duration:6s;
 }
 @keyframes cloudright02 {
-    from  {right:21%;}
-    to {right:4%;}
+    0% {right:21%;}
+	35% {right:21%;}
+    100% {right:4%;}
 }
 .cloudright01{
 	position:absolute;
@@ -333,11 +341,12 @@ td{
 	animation-name: cloudright01;
 	animation-duration:6s;
 }
-/*@keyframes cloudright01 {
+@keyframes cloudright01 {
     0% {right:20%;}
-	50%{right:20%;}
+	25%{right:20%;}
     100% {right:1.5%;}
-}*/
+}
+
 /*¶}³õ*/
 .r1{
 	position:absolute;
