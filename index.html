@@ -90,9 +90,9 @@
 				if (xhttp.readyState == 4 && xhttp.status == 200) {
 					document.getElementById("text").innerHTML = xhttp.responseText;
 				}
-				else{
+				/*else{
 					document.getElementById("text").innerHTML=xhttp.readyState;
-				}
+				}*/
 			};
 			document.getElementById("content").style.display="block";
 			xhttp.open("GET", "content/"+x+".html", true);
