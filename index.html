@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="ostiumstyle.css" media="screen"/>
-	<script type="text/javascript" src="jquery.min.js"></script>
+	<!--<script type="text/javascript" src="jquery.min.js"></script>
 	<script type="text/javascript" src="jquery.preload.js">
 		$.preload(	'img/cloudleft/09.png',
 					'img/cloudleft/08.png',
@@ -31,10 +31,13 @@
 					'img/open/l8.png',
 					'img/open/l9.png',
 					'img/open/l10.png',
+					'img/tree.png',
+					'img/sky.png'
 
 
-);
-	</script>
+)
+	</script>;-->
+
 	<title>Ostium</title>
 	<script>
 	/*cloud moving control*/
@@ -62,7 +65,38 @@
 			xhttp.open("GET", "content/"+x+".html", true);
 			xhttp.send();
 		}
-		</script>
+		function preloadImg(image) {
+			var img = new Image();
+			img.src = image;
+		}
+		preloadImg('img/open/r1.png');
+		preloadImg('img/open/l2.png');
+		preloadImg('img/open/r5.png');
+		preloadImg('img/open/l6.png');
+		preloadImg('img/open/r7.png');
+		preloadImg('img/open/l8.png');
+		preloadImg('img/open/l9.png');
+		preloadImg('img/open/l10.png');
+		preloadImg('img/cloudleft/09.png');
+		preloadImg('img/cloudleft/08.png');
+		preloadImg('img/cloudleft/07.png');
+		preloadImg('img/cloudleft/06.png');
+		preloadImg('img/cloudleft/05.png');
+		preloadImg('img/cloudleft/04.png');
+		preloadImg('img/cloudleft/03.png');
+		preloadImg('img/cloudleft/02.png');
+		preloadImg('img/cloudleft/01.png');
+		preloadImg('img/cloudright/09.png');
+		preloadImg('img/cloudright/08.png');
+		preloadImg('img/cloudright/07.png');
+		preloadImg('img/cloudright/06.png');
+		preloadImg('img/cloudright/05.png');
+		preloadImg('img/cloudright/04.png');
+		preloadImg('img/cloudright/03.png');
+		preloadImg('img/cloudright/02.png');
+		preloadImg('img/cloudright/01.png');
+		preloadImg('img/tree.png');
+		preloadImg('img/sky.png');
 	</script>
 </head>
 <body>
