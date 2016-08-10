@@ -516,7 +516,7 @@ td{
     height: 100%;
     text-align: center;
 	animation-name: unshowloadleft;
-	animation-duration:4s;
+	animation-duration:6s;
 }
 #loadingright{
 	z-index: 100;
@@ -529,15 +529,15 @@ td{
     height: 100%;
     text-align: center;
 	animation-name: unshowloadright;
-	animation-duration:4s;
+	animation-duration:6s;
 }
 @keyframes unshowloadright {
     0% {left:50%;}
-    40%{left:50%;}
+    50%{left:50%;}
     100% {left:100%;}
 }
 @keyframes unshowloadleft{
     0%  {left:0%;}
-    40%  {left:0%;}
+    50%  {left:0%;}
     100% {left:-50%;}
 }
