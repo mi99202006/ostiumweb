@@ -64,7 +64,7 @@ td{
 	margin-right:130px;
 	color:white;
 }
-/*Â∑¶ÈÇäÈõ≤Â±§*/
+/*•™√‰∂≥ºh*/
 .cloudleft09{
 	position:absolute;
 	width:15%;
@@ -204,7 +204,7 @@ td{
 	25%{left:20%;}
     100% {left:-3%;}
 }
-/*Âè≥ÈÇäÈõ≤Â±§*/
+/*•k√‰∂≥ºh*/
 .cloudright09{
 	position:absolute;
 	width:12%;
@@ -338,7 +338,7 @@ td{
 	50%{right:20%;}
     100% {right:1.5%;}
 }*/
-/*ÈñãÂ†¥*/
+/*∂}≥ı*/
 .r1{
 	position:absolute;
 	width:100%;
@@ -468,7 +468,7 @@ td{
     100% {left:-100%;}
 }
 
-/*Â§©Á©∫Èõ≤*/
+/*§—™≈∂≥*/
 .sky{
 	position:absolute;
 	top:-30%;
@@ -481,12 +481,12 @@ td{
 
 
 
-/*Â≠óÈ´î*/
+/*¶r≈È*/
 @font-face {
     font-family: "agencyfb";
     src: url("font/ufonts.com_agency-fb.ttf");
 }
-/*ÂãïÁï´*/
+/*∞ µe*/
 	/*content*/
 @keyframes showblock {
     from  {height:0px;}
@@ -498,7 +498,7 @@ td{
 	100%   {width:0px;height:2px;}
     
 }
-	/*Èõ≤Â±§*/
+	/*∂≥ºh*/
 /*@keyframes cloud{
     from  {left:30%;;}
     to {left:-10%;}
@@ -532,12 +532,12 @@ td{
 	animation-duration:4s;
 }
 @keyframes unshowloadright {
-    0%  {left:50%;}
-    0%  {left:50%;}
+    0% {left:50%;}
+	50%{left:50%;}
     100% {left:100%;}
 }
 @keyframes unshowloadleft{
     0%  {left:0%;}
-    50%  {left:0%;}
+	50%  {left:0%;}
     100% {left:-50%;}
 }
