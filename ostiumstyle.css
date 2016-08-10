@@ -350,8 +350,9 @@ td{
 	animation-duration:4s;
 }
 @keyframes r1 {
-    from  {left:25%;}
-    to {left:90%;}
+    0%  {left:25%;}
+	200%  {left:25%;}
+	100% {left:90%;}
 }
 .l2{
 	position:absolute;
@@ -365,6 +366,7 @@ td{
 }
 @keyframes l2 {
     0% {left:-30%;}
+	20% {left:-30%;}
     100% {left:-80%;}
 }
 .m3{
@@ -502,3 +504,38 @@ td{
     to {left:-10%;}
 }
 */
+/*loading*/
+#loadingleft{
+	z-index: 100;
+	background-color:black;
+    color: #fff;
+    position: absolute;
+	left:-50%;
+	top:0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+	animation-name: unshowloadleft;
+	animation-duration:4s;
+}
+#loadingright{
+	z-index: 100;
+	background-color:black;
+    color: #fff;
+    position: absolute;
+	left:100%;
+	top:0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+	animation-name: unshowloadright;
+	animation-duration:4s;
+}
+@keyframes unshowloadright {
+    from  {left:50%;}
+    to {left:100%;}
+}
+@keyframes unshowloadleft{
+    from  {left:0%;}
+    to {left:-50%;}
+}

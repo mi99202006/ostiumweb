@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="ostiumstyle.css" media="screen"/>
-	<!--<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
 	<script type="text/javascript" src="jquery.preload.js">
 		$.preload(	'img/cloudleft/09.png',
 					'img/cloudleft/08.png',
@@ -36,7 +36,9 @@
 
 
 )
-	</script>;-->
+	</script>	
+
+	<title>Ostium</title>
 	<script>
 		function preloadImg(image) {
 			var img = new Image();
@@ -71,7 +73,6 @@
 		preloadImg('img/cloudright/02.png');
 		preloadImg('img/cloudright/01.png');
 	</script>
-	<title>Ostium</title>
 	<script>
 	/*cloud moving control*/
 		var box = document.querySelector('.cloudmoveleft01');
@@ -98,42 +99,13 @@
 			xhttp.open("GET", "content/"+x+".html", true);
 			xhttp.send();
 		}
-		function preloadImg(image) {
-			var img = new Image();
-			img.src = image;
-		}
-		preloadImg('img/open/r1.png');
-		preloadImg('img/open/l2.png');
-		preloadImg('img/open/r5.png');
-		preloadImg('img/open/l6.png');
-		preloadImg('img/open/r7.png');
-		preloadImg('img/open/l8.png');
-		preloadImg('img/open/l9.png');
-		preloadImg('img/open/l10.png');
-		preloadImg('img/cloudleft/09.png');
-		preloadImg('img/cloudleft/08.png');
-		preloadImg('img/cloudleft/07.png');
-		preloadImg('img/cloudleft/06.png');
-		preloadImg('img/cloudleft/05.png');
-		preloadImg('img/cloudleft/04.png');
-		preloadImg('img/cloudleft/03.png');
-		preloadImg('img/cloudleft/02.png');
-		preloadImg('img/cloudleft/01.png');
-		preloadImg('img/cloudright/09.png');
-		preloadImg('img/cloudright/08.png');
-		preloadImg('img/cloudright/07.png');
-		preloadImg('img/cloudright/06.png');
-		preloadImg('img/cloudright/05.png');
-		preloadImg('img/cloudright/04.png');
-		preloadImg('img/cloudright/03.png');
-		preloadImg('img/cloudright/02.png');
-		preloadImg('img/cloudright/01.png');
-		preloadImg('img/tree.png');
-		preloadImg('img/sky.png');
 	</script>
 </head>
 <body>
-	<!--¶}³õ-->
+	<!--載入圖片過場-->
+	<div id='loadingleft'></div>
+	<div id='loadingright'></div>
+	<!--開場-->
 	<img src="img/open/r1.png" class="r1">
 	<img src="img/open/l2.png" class="l2">
 	<!--<img src="img/open/m3.png" class="m3">-->
@@ -143,9 +115,9 @@
 	<img src="img/open/r7.png" class="r7">
 	<img src="img/open/l8.png" class="l8">
 	<img src="img/open/l9.png" class="l9">
-	<img src="img/open/l10.png" class="l10">-->
+	<img src="img/open/l10.png" class="l10">
 
-	<!--¶³¼h¥ª-->
+	<!--雲層左-->
 	<!--<img src="img/sky.png" class="sky">-->
 	<img src="img/cloudleft/09.png" class="cloudleft09">
 	<img src="img/cloudleft/08.png" class="cloudleft08">
@@ -156,7 +128,7 @@
 	<img src="img/cloudleft/03.png" class="cloudleft03">
 	<img src="img/cloudleft/02.png" class="cloudleft02">
 	<img src="img/cloudleft/01.png" class="cloudleft01">
-	<!--¶³¼h¥k-->
+	<!--雲層右-->
 	<img src="img/cloudright/09.png" class="cloudright09">
 	<img src="img/cloudright/08.png" class="cloudright08">
 	<img src="img/cloudright/07.png" class="cloudright07">
@@ -166,7 +138,7 @@
 	<img src="img/cloudright/03.png" class="cloudright03">
 	<img src="img/cloudright/02.png" class="cloudright02">
 	<img src="img/cloudright/01.png" class="cloudright01">
-	<!--¶}³õ-->
+	<!--開場-->
 	<img src="img/open/r1.png" class="r1">
 	<img src="img/open/l2.png" class="l2">
 	<!--<img src="img/open/m3.png" class="m3">-->
@@ -176,8 +148,8 @@
 	<img src="img/open/r7.png" class="r7">
 	<img src="img/open/l8.png" class="l8">
 	<img src="img/open/l9.png" class="l9">
-	<img src="img/open/l10.png" class="l10">-->
-	<!--¤º®e-->
+	<img src="img/open/l10.png" class="l10">
+	<!--內容-->
 	<div id="content">
 		<div id="text"></div>
 	</div>
