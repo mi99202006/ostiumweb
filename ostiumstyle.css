@@ -64,7 +64,7 @@ td{
 	margin-right:130px;
 	color:white;
 }
-/*•™√‰∂≥ºh*/
+/*Â∑¶ÈÇäÈõ≤Â±§*/
 .cloudleft09{
 	position:absolute;
 	width:15%;
@@ -74,6 +74,7 @@ td{
 	z-index:1;
 	animation-name: cloudleft09;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudleft09 {
      0% {left:25%;}
@@ -90,6 +91,7 @@ td{
 	z-index:2;
 	animation-name: cloudleft08;
 	animation-duration:6s;
+	animation-delay:2s;
 
 }
 @keyframes cloudleft08 {
@@ -106,6 +108,7 @@ td{
 	z-index:3;
 	animation-name: cloudleft07;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudleft07 {
 	0% {left:25%;}
@@ -122,6 +125,7 @@ td{
 	z-index:4;
 	animation-name: cloudleft06;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudleft06 {
      0% {left:15%;}
@@ -137,6 +141,7 @@ td{
 	z-index:5;
 	animation-name: cloudleft05;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudleft05 {
      0% {left:22%;}
@@ -152,6 +157,7 @@ td{
 	z-index:6;
 	animation-name: cloudleft04;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudleft04 {
      0% {left:25%;}
@@ -167,6 +173,7 @@ td{
 	z-index:7;
 	animation-name: cloudleft03;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 
 @keyframes cloudleft03 {
@@ -183,6 +190,7 @@ td{
 	z-index:8;
 	animation-name: cloudleft02;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudleft02 {
     0% {left:20%;}
@@ -198,13 +206,14 @@ td{
 	z-index:9;
 	animation-name: cloudleft01;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudleft01 {
     0% {left:20%;}
 	25%{left:20%;}
     100% {left:-3%;}
 }
-/*•k√‰∂≥ºh*/
+/*Âè≥ÈÇäÈõ≤Â±§*/
 .cloudright09{
 	position:absolute;
 	width:12%;
@@ -214,6 +223,7 @@ td{
 	z-index:1;
 	animation-name: cloudright09;
 	animation-duration:6s;
+	animation-delay:2s;
 
 }
 @keyframes cloudright09 {
@@ -231,6 +241,7 @@ td{
 	z-index:2;
 	animation-name: cloudright08;
 	animation-duration:6s;
+	animation-delay:2s;
 
 }
 @keyframes cloudright08 {
@@ -247,6 +258,7 @@ td{
 	z-index:3;
 	animation-name: cloudright07;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudright07 {
     0%  {right:20%;}
@@ -262,6 +274,7 @@ td{
 	z-index:4;
 	animation-name: cloudright06;
 	animation-duration:6s;
+	animation-delay:2s;
 
 }
 @keyframes cloudright06 {
@@ -278,6 +291,7 @@ td{
 	z-index:5;
 	animation-name: cloudright05;
 	animation-duration:6s;
+	animation-delay:2s;
 
 }
 @keyframes cloudright05 {
@@ -294,6 +308,7 @@ td{
 	z-index:6;
 	animation-name: cloudright04;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudright04 {
     0%{right:28%;}
@@ -310,11 +325,12 @@ td{
 	z-index:7;
 	animation-name: cloudright03;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudright03 {
     0%  {right:20%;}
 	30%  {right:20%;}
-    100% {right:4%;}
+    100% {right:-10%;}
 }
 .cloudright02{
 	position:absolute;
@@ -325,6 +341,7 @@ td{
 	z-index:8;
 	animation-name: cloudright02;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudright02 {
     0% {right:21%;}
@@ -340,14 +357,16 @@ td{
 	z-index:8;
 	animation-name: cloudright01;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes cloudright01 {
     0% {right:20%;}
 	25%{right:20%;}
     100% {right:1.5%;}
+    animation-delay:2s;
 }
 
-/*∂}≥ı*/
+/*ÈñãÂ†¥*/
 .r1{
 	position:absolute;
 	width:100%;
@@ -357,6 +376,7 @@ td{
 	z-index:50;
 	animation-name: r1;
 	animation-duration:4s;
+	animation-delay:2s;
 }
 @keyframes r1 {
     0%  {left:25%;}
@@ -372,6 +392,7 @@ td{
 	z-index:49;
 	animation-name: l2;
 	animation-duration:4s;
+	animation-delay:2s;
 }
 @keyframes l2 {
     0% {left:-30%;}
@@ -395,6 +416,7 @@ td{
 	z-index:46;
 	animation-name: r5;
 	animation-duration:5s;
+	animation-delay:2s;
 }
 @keyframes r5 {
     0% {left:20%;}
@@ -410,6 +432,7 @@ td{
 	z-index:45;
 	animation-name: l6;
 	animation-duration:5s;
+	animation-delay:2s;
 }
 @keyframes l6 {
     0% {left:-40%;}
@@ -425,6 +448,7 @@ td{
 	z-index:44;
 	animation-name: r7;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes r7 {
     0% {left:10%;}
@@ -440,6 +464,7 @@ td{
 	z-index:43;
 	animation-name: l8;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes l8{
     0% {left:-30%;}
@@ -455,6 +480,7 @@ td{
 	z-index:42;
 	animation-name: l9;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes l9{
     0% {left:-25%;}
@@ -470,6 +496,7 @@ td{
 	z-index:41;
 	animation-name: l10;
 	animation-duration:6s;
+	animation-delay:2s;
 }
 @keyframes l10{
     0% {left:0%;}
@@ -477,7 +504,7 @@ td{
     100% {left:-100%;}
 }
 
-/*§—™≈∂≥*/
+/*Â§©Á©∫Èõ≤*/
 .sky{
 	position:absolute;
 	top:-30%;
@@ -490,12 +517,12 @@ td{
 
 
 
-/*¶r≈È*/
+/*Â≠óÈ´î*/
 @font-face {
     font-family: "agencyfb";
     src: url("font/ufonts.com_agency-fb.ttf");
 }
-/*∞ µe*/
+/*ÂãïÁï´*/
 	/*content*/
 @keyframes showblock {
     from  {height:0px;}
@@ -507,7 +534,7 @@ td{
 	100%   {width:0px;height:2px;}
     
 }
-	/*∂≥ºh*/
+	/*Èõ≤Â±§*/
 /*@keyframes cloud{
     from  {left:30%;;}
     to {left:-10%;}
@@ -525,7 +552,7 @@ td{
     height: 100%;
     text-align: center;
 	animation-name: unshowloadleft;
-	animation-duration:4s;
+	animation-duration:6s;
 }
 #loadingright{
 	z-index: 100;
@@ -538,7 +565,8 @@ td{
     height: 100%;
     text-align: center;
 	animation-name: unshowloadright;
-	animation-duration:4s;
+	animation-duration:6s;
+
 }
 @keyframes unshowloadright {
     0% {left:50%;}
